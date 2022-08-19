@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent-container {
+  width: 95%;
+  border: 2px solid red;
+  margin: 2em auto;
+}
+
+.section-top {
+  width: 100%;
+  text-align: center;
+}
+
+.start-getting-text {
+  font-size: 3rem;
+  padding-bottom: 0.5em;
+  border: 2px solid green;
+}
+
+.getting-span {
+  color: #b7832f;
+}
+
+.top-image {
+  /* max-width: 980px; */
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.section-middle {
+  display: flex;
+  margin-top: 0.5em 0;
+  width: 100%;
+}
+
+.dolor-sit-header,
+.consectetur-header {
+  font: 1.5rem;
+}
+
+.dolor-sit-text {
+  width: 25%;
+  border: 2px solid blue;
+  color: #707070;
+}
+
+.consectetur-text {
+  width: 50%;
+  border: 2px solid pink;
+  color: #707070;
+  margin-left: 2em;
+  margin-right: 1.5em;
+}
+
+.new-line {
+  /* word-wrap: break-word; */
+  /* white-space: initial; */
+}
+
+.lorem-card-middle {
+  width: 25%;
+  border: 2px solid yellow;
+}
+
+.section-bottom {
+  display: flex;
+}
