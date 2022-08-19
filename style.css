@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap");
 
 * {
   margin: 0;
@@ -15,7 +15,7 @@ body {
   max-width: 980px;
   /* border: 2px solid red; */
   margin: 2em auto;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   padding: 0 1em;
 }
 
@@ -35,13 +35,14 @@ body {
 }
 
 .top-image {
-  /* max-width: 980px; */
-  width: 100%;
+  max-width: 100%;
+  /* width: 100%; */
   margin-bottom: 1em;
 }
 
 .section-middle {
   display: flex;
+  justify-content: space-between;
   margin: 0.5em 0;
   width: 100%;
   line-height: 1.5rem;
@@ -55,18 +56,18 @@ body {
 }
 
 .dolor-sit-text {
-  width: 25%;
+  width: 20%;
   /* border: 2px solid blue; */
   color: #707070;
   /* padding: 1em; */
 }
 
 .consectetur-text {
-  width: 50%;
+  width: 45%;
   /* border: 2px solid pink; */
   color: #707070;
-  margin-left: 3em;
-  margin-right: 2em;
+  /* margin-left: 2em;
+  margin-right: 1em; */
   /* padding: 1em; */
 }
 
@@ -75,40 +76,48 @@ body {
   /* white-space: initial; */
 }
 
-.lorem-card-middle {
+/* .lorem-card-middle {
   width: 25%;
+  border: 2px solid yellow;
+} */
 
-  /* border: 2px solid yellow; */
-}
-
-.lorem-card-middle {
+.paragragh-bg {
+  width: 20%;
   background-color: #312614;
   padding: 1em;
   color: #fff;
 }
 
+/* .lorem-card-middle {
+  width: 25%;
+  background-color: #312614;
+  padding: 1em;
+  color: #fff;
+} */
+
 .section-bottom {
   display: flex;
+  justify-content: space-between;
   margin-top: 1.5em;
   width: 100%;
 }
 
 .deserunt-text {
   color: #312614;
-  width: 75%;
-  margin-right: 3em;
+  width: 70%;
+  /* margin-right: 3em; */
 }
 
 .deserunt-header {
   padding-bottom: 1em;
 }
 
-.lorem-card-bottom {
+/* .lorem-card-bottom {
   width: 25%;
   background-color: #312614;
   padding: 1em;
   color: #fff;
-}
+} */
 
 .deserunt-paragraph {
   color: #707070;
