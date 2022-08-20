@@ -13,7 +13,6 @@ body {
 .parent-container {
   /* width: 90%; */
   max-width: 980px;
-  /* border: 2px solid red; */
   margin: 2em auto;
   font-family: "Open Sans", sans-serif;
   padding: 0 1em;
@@ -27,7 +26,6 @@ body {
 .start-getting-text {
   font-size: 3rem;
   padding-bottom: 0.5em;
-  /* border: 2px solid green; */
 }
 
 .getting-span {
@@ -57,18 +55,12 @@ body {
 
 .dolor-sit-text {
   width: 20%;
-  /* border: 2px solid blue; */
   color: #707070;
-  /* padding: 1em; */
 }
 
 .consectetur-text {
   width: 45%;
-  /* border: 2px solid pink; */
   color: #707070;
-  /* margin-left: 2em;
-  margin-right: 1em; */
-  /* padding: 1em; */
 }
 
 .new-line {
@@ -76,24 +68,12 @@ body {
   /* white-space: initial; */
 }
 
-/* .lorem-card-middle {
-  width: 25%;
-  border: 2px solid yellow;
-} */
-
 .paragragh-bg {
   width: 20%;
   background-color: #312614;
   padding: 1em;
   color: #fff;
 }
-
-/* .lorem-card-middle {
-  width: 25%;
-  background-color: #312614;
-  padding: 1em;
-  color: #fff;
-} */
 
 .section-bottom {
   display: flex;
@@ -105,20 +85,39 @@ body {
 .deserunt-text {
   color: #312614;
   width: 70%;
-  /* margin-right: 3em; */
 }
 
 .deserunt-header {
   padding-bottom: 1em;
 }
 
-/* .lorem-card-bottom {
-  width: 25%;
-  background-color: #312614;
-  padding: 1em;
-  color: #fff;
-} */
-
 .deserunt-paragraph {
   color: #707070;
+}
+
+/* Responsiveness for screen below 660px */
+
+@media (max-width: 600px) {
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dolor-sit-text {
+    width: 100%;
+  }
+
+  .consectetur-text {
+    width: 100%;
+    margin: 1em 0;
+  }
+
+  .deserunt-text {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .paragragh-bg {
+    width: 100%;
+  }
 }
